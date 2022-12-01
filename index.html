@@ -1,211 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registation.css">
+    <link rel="stylesheet" href="https://unicons.iconscount.com/release/v4.0.0/css/line.css">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
-    <!-- Box Icons -->
-    
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <header>
-      <a href="#" class="logo"
-        ><i class="bx bxs-coffee-bean"></i>Krishi Sahayata app</a
-      >
-      <!-- Menu  icon-->
-      <div class="bx bx-menu" id="menu-icon"></div>
-      <ul class="navbar">
-        <li><a href="#" class="home-active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="#">Technologies</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="contact.html">Contact us</a></li>
-      </ul>
-      <!-- Profile -->
-      <div class="profile">
-        <img src="Photo.jpg" alt="" />
-        <span>Men In Black</span>
-        <i class="bx bxs-caret-down-circle"></i>
-      </div>
-    </header>
-    <!-- Home -->
-    <!-- Box 1 -->
-    <section class="home swiper" id="home">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide container">
-          <img src="pexels-jeffry-surianto-11053137.jpg" alt="" />
-          <div class="home-text" >
-             
-            <h1 style="color: white;">କୃଷି କଲେ ଉନ୍ନତ
-              
-               <br />ସକଳ ଉନ୍ନତି </h1>
-             
-          </div>
-        </div>
-        <!-- Box 2 -->
-        <div class="swiper-slide container">
-          <img src="Satellite radar interferometry effective for mapping crops.png" alt="" />
-          <div class="home-text">
-             
-            <h1 style="color: #fff;"> ଉପଗ୍ରହ ପ୍ରତିଛବି |
-            </h1>
-             
-          </div>
-        </div>
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #4070f4;
 
-        <!-- Box 3 -->
-        <div class="swiper-slide container">
-          <img src="1000_F_399822445_pk1SJ0o1vTuRpIti0uh0px5tN2YLN3l3.jpg" alt="" />
-          <div class="home-text">
-             
-            <h1 style="color: rgb(12, 11, 11);">ଆଧାର କାର୍ଡ ଲିଙ୍କ୍</h1>
-              
-          </div>
-        </div>
+        }
 
-      <div class="swiper-pagination"></div>
-    </section>
-    <!-- Container -->
-    <section class="products" style=" padding: 50px 100px;" id="products" >
-      <div class="heading">
-       <center> <h2></h2></center>  
-      </div>
-      <!-- Contaier boxes -->
-      <div class="products-container">
-        <div class="box">
-          <i class='bx bx-play' onclick="playsound()"></i>
-          <audio  id="audio" src="s1.mp3" style="display: none;"></audio>
-          <img src="https://i.pinimg.com/564x/2c/1e/f9/2c1ef9e9367b10671e96936398d058f8.jpg" alt="">
-          <a href="regisation.html"> <h3>Apply for crop insurance</h3></a>
-           
-        </div>
-        <div class="box">
-          <i class='bx bx-play' onclick="playsound2()"></i>
-          <audio  id="audio1" src="s2.mp3" style="display: none;"></audio>
-       <img src="download.png" alt="">  
-       <a href="policy.html"><h3>policy form</h3></a>
-           
-        </div>
-        <div class="box">
-          <i class='bx bx-play' onclick="playsound3()"></i>
-          <audio  id="audio2" src="s3.mp3" style="display: none;"></audio>
-          <img src="img4.jpg" alt="">
-          <h3>Report Crop Loss</h3>
-           
-        </div>
-        <div class="box">
-          <i class='bx bx-play' onclick="playsound4()"></i>
-          <audio  id="audio3" src="s4.mp3" style="display: none;"></audio>
-          <img src="online-survey-171209923.jpg" alt="">
-          <a href="form.html"><h3>Application Status</h3></a>
-           
-        </div>
-        <div class="box">
-          <i class='bx bx-play' onclick="playsound5()"></i>
-          <audio  id="audio4" src="s5.mp3" style="display: none;"></audio>
-          <img src="img2.jpg" alt="">
-          <a href="help.html"><h3>Helpline</h3></a>
-           
-        </div>
-        <div class="box">
-          <i class='bx bx-play' onclick="playsound6()"></i>
-          <audio  id="audio5" src="s6.mp3" style="display: none;"></audio>
-          <img src="img3.png" alt="">
-          <a href="https://pmfby.gov.in/tutorials"><h3>Tutorial</h3></a>
-           
-        </div>
-      </div>
-    </section>
-    <!-- Cards -->
-      <section class="c1">
-        <div class="card">
-          <div class="imgbox">
-            <img
-              src="notice2.webp" class="img1"
-            />
-          </div>
-  
-          <div class="content">
-            <p>click click click click         cheak important 
-              Circulars</p>
-            <a href="https://pmfby.gov.in/circulars"><h2>Important Circulars</h2></a>
-            
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgbox">
-            <img
-              src="insurance-company-outline-icon-thin-line-style-icons-collection-web-design-apps-software-printing-usage-simple-153873741.jpg" class="img1"
-            />
-          </div>
-    
-          <div class="content">
-            <p> gfgfgghghhbhbh      lfnenjfnen</p>
-            <a href="bankdirectory.html"><h2>Insurance Company Directory</h2> </a>
-            
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgbox">
-            <img
-              src="bank-building-icon-vector-260nw-755032279.webp" class="img1"
-            />
-          </div>
-    
-          <div class="content">
-            <p>Click Here And cheak Your        cheak your bank Directory</p>
-           <a href="insurancedirectory.html"> <h2>Bank Branch Directory</h2></a>
-             
-          </div>
-        </div>
-      </section>
-      <!-- News letter -->
-    <div style="background-color: #1a2428  ;">
-      <section class="newsletter"   id="newsletter">
-        <h2>Suscribe to get <br>NewsLetter</h2>
-        <form action="">
-          <input type="email" 
-           class="email"
-    placeholder="Enter email..." required>
-          <input type="submit" value="suscribe" class="btn">
+        .container {
+            position: relative;
+            max-width: 900PX;
+            width: 100%;
+            border-radius: 6px;
+            padding: 30px;
+            margin: 0 15px;
+            background-color: #fff;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 
+        }
+
+        .container header::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            height: 3px;
+            width: 27px;
+            background-color: #4070f4;
+            border-radius: 8px;
+        }
+
+        .container header {
+            position: relative;
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .container form {
+            position: relative;
+            margin-top: 16px;
+            min-height: 490px;
+            background-color: #fff;
+        }
+
+        .container form .details.ID {
+            margin-top: 30px;
+        }
+
+        .container form .details {
+            margin-top: 30px;
+        }
+
+        .container form .title {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 6px 0;
+            color: #333;
+
+        }
+
+        .container form .fields {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        form .fields .input-field {
+            display: flex;
+            width: calc(100%/3 - 15px);
+
+            flex-direction: column;
+            margin: 4px 0;
+
+        }
+
+        .imput-field label {
+            font-size: 12px;
+            font-weight: 500;
+            color: #2e2e2e;
+        }
+
+        .input-field input {
+            outline: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: 400;
+            border: 1px solid #aaa;
+            padding: 0 15px;
+            height: 42px;
+            margin: 8px 0;
+        }
+
+        .input-field input:is(:focus, :valid) {
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+
+        }
+
+        .input-field input[type="date"] {
+            color: #707070;
+        }
+
+        .input-field input[type="date"] {
+            color: #333;
+        }
+
+        .container form button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 45px;
+            max-width: 200px;
+            width: 100%;
+            background-color: #4070f4;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+            margin: 25px 0;
+            background-color: #4070f4;
+            transition: all 0.3s linear;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #265df2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>FARMER DETAILS</header>
+        <form action="sample2.php" method="post">
+            <div class="form first">
+
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label> Full name</label>
+                            <input type="text" placeholder="Enter Your name" required name="fullname">
+                        </div>
+                        <div class="input-field">
+                            <label>Relationship</label>
+                            <input type="text" placeholder="Enter Relationship" required name="relationship">
+                        </div>
+                        <div class="input-field">
+                            <label>Guardian Name</label>
+                            <input type="text" placeholder="Enter guardian Name" required name="guardian">
+                        </div>
+
+                        <div class="input-field">
+                            <label> Email</label>
+                            <input type="text" placeholder="Enter Your emailId" required name="email">
+                        </div>
+
+                        <div class="input-field">
+                            <label> Mobile number</label>
+                            <input type="number" placeholder="Enter Your number" required name="mobilenumber">
+                        </div>
+
+                        <div class="input-field">
+                            <label> Age</label>
+                            <input type="number" placeholder="Enter Your age" required name="age">
+                        </div>
+
+                        <div class="input-field">
+                            <label> Gender</label>
+                            <input type="text" placeholder="Enter Gender" required name="gender">
+                        </div>
+                        <div class="input-field">
+                            <label> Farmer type</label>
+                            <input type="text" placeholder="Enter Farmer Type" required name="farmertype">
+                        </div>
+
+                        <div class="input-field">
+                            <label> Occupation</label>
+                            <input type="text" placeholder="Enter Your work" required name="occupation">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Farmer ID</span>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label> ID number</label>
+                            <input type="number" placeholder="Enter ID number" required name="idnumber">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="details personal">
+                <span class="title">Account Details</span>
+                <div class="fields">
+                    <div class="input-field">
+                        <label>IFSC Code</label>
+                        <input type="BigInt" placeholder="Enter Your IFSC code" required name="ifsccode">
+                    </div>
+
+                    <div class="input-field">
+                        <label>State</label>
+                        <input type="text" placeholder="Enter state" required name="state">
+                    </div>
+                    <div class="input-field">
+                        <label>District</label>
+                        <input type="text" placeholder="Enter district name" required name="district">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Bank Name</label>
+                        <input type="text" placeholder="Enter Your Bank Name" required name="bankname">
+                    </div>
+
+                    <div class="input-field">
+                        <label>Bank Branch number</label>
+                        <input type="BigInt" placeholder="Enter Your number" required name="bankbranchnumber">
+                    </div>
+                    <div class="input-field">
+                        <label>Savings Bank A/C no.</label>
+                        <input type="BigInt" placeholder="Enter Your bank a/c no." required name="savings">
+                    </div>
+                    <div class="input-field">
+                        <label>Confirms Saving Bank</label>
+                        <input type="BigInt" placeholder="Confirms Bank A/C no." required name="confirms">
+                    </div>
+
+                </div>
+
+
+                <div class="form second">
+
+                    <div class="details address">
+                        <span class="title">Registration Details</span>
+                        <div class="fields">
+                            <div class="input-field">
+                                <label> Pincode</label>
+                                <input type="text" placeholder="Enter Your state" required name="pincode">
+                            </div>
+
+                            <div class="input-field">
+                                <label> Address2</label>
+                                <input type="text" placeholder="Enter Your district" required name="address2">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Sub-District</label>
+                                <input type="number" placeholder="Enter Your subdistrict" required name="subdistrict">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Residential Village/Town</label>
+                                <input type="text" placeholder="Enter your village" required name="village">
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+            </div>
         </form>
-
-      </section>
-      <!-- Footer -->
-      <section class="footer"  style="background-color: #1a2428  ">
-        <a href="#" class="logo">
-          <i class="bx bxs-coffee-bean"><h3>Krishi Sahayata app</h3></i> 
-        </a>
-        <div class="social">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-instagram'></i></a>
-            <a href="#"><i class='bx bxl-linkedin'></i></a>
-            
-        </div>
-    </section>
-    <!-- Copyright -->
-    <div class="copyright">
-        <p>&#169;Omtanmaya All Right Reserved</p>
+        <a href="h1.html"> <button>CREATE</button></a>
     </div>
-  </div>
-    
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <!-- link to modify -->
-    <script src="main.js"></script>
-  </body>
+</body>
+
 </html>
