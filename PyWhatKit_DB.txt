@@ -1,0 +1,10 @@
+Date: 1/12/2022
+Time: 18:46
+Phone Number: +91 6370081836
+Message: Guys this is auto generated message using python
+--------------------
+Date: 1/12/2022
+Time: 20:22
+Phone Number: +91 7004537843
+Message: Your claim has been accepted
+--------------------
